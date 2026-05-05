@@ -1,15 +1,15 @@
 package test;
 
-import domain.Cat;
+import domain.Giraffe;
 
 public class TestAnimal {
 
     public static void main(String[] args) {
-        Cat cat = new Cat("Thomas");
-        System.out.println(cat);
-        cat.hunt();
-        cat.eat();
-        cat.speak();
-        cat.play();
+        Giraffe giraffe = new Giraffe("Marty", 90, 4, "Northern");
+        System.out.println(giraffe);
+        giraffe.eat();
+        giraffe.speak();
+        giraffe.findPlants();
+        giraffe.move();
     }
 }
