@@ -6,6 +6,8 @@ public class Animal {
 
     protected int weight;
 
+    protected int height;
+
     public Animal() {
         name="generic animal";
         weight=25;
@@ -21,7 +23,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg" + "\nHeight:\t" + height+" m";
     }
 
  
